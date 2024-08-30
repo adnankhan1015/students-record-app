@@ -1,8 +1,9 @@
-function App() {
+import Grid from "./components/Grid";
 
+function App() {
   return (
     <>
-      <p className="font-bold">Hello World</p>
+      <Grid />
     </>
   )
 }
